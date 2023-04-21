@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.head-1 {
+
+    margin-top: 10px;
+}
+
+h2 {
+
+    margin: 25px;
+}
+
+
+li {
+    color: white;
+    font-size: 25px;
+    margin-right: 35px;
+}
+
+nav {
+    display: flex;
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+nav ul li {
+
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+ul {
+    margin-right: auto;
+    margin-top: 17px;
+    padding-left: 15px;
+
+}
+
+
+
+.item {
+
+    padding: 2px;
+
+
+    height: 150px;
+
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 1s;
+
+
+}
+
+.item:hover {
+    transform: scale(1.2);
+}
+
+nav {
+    padding: 15px;
+}
+
+.container {
+    margin-top: 30px;
+    margin: 25px;
+    margin-right: 5px;
+    font-size: 25px;
+    text-align: left;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+
+}
+
+.right {
+
+    padding: 10px;
+    margin: 5px;
+}
+
+.fa-magnifying-glass {
+    margin-right: 10px;
+}
+
+.fa-bell {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+footer {
+    font-size:small;
+    margin: 15px;
+    padding: 10px;
+}
